@@ -1,0 +1,14 @@
+
+
+server:
+  port: 8888
+
+#CONFIGURA O ACESSO AO ARQUIVO .yamm DE CONFIGURAÇÃO  
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: /home/fabricio/microservice-repo
