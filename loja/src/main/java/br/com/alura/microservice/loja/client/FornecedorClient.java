@@ -20,3 +20,4 @@ public interface FornecedorClient {
 	@RequestMapping(method=RequestMethod.POST, value="/pedido")
 	InfoPedidoDTO realizaPedido(List<ItemDaCompraDTO> itens);
 }
+//comentario
